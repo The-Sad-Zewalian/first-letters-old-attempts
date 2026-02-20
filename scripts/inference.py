@@ -30,7 +30,7 @@ PIL.Image.MAX_IMAGE_PIXELS = 933120000
 
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-wandb.login(key='574c23ca47bbd885a816336238f90cdee9d3a9ca')
+wandb.login(key='WANDB-KEY')
 wandb.init(project='Inference')
 
 print("Running inference...")
