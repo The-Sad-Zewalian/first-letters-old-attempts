@@ -1,7 +1,7 @@
 # Vesuvius Challenge: First Letters Prize (Scrolls 2, 3, & 4)
 
 ## 1. Introduction
-This repository documents my findings and experimental architectures developed while pursuing the **First Letters Prizes** for Scrolls 2, 3, and 4. 
+This repository documents my findings and experimental architectures developed while pursuing the **First Letters Prizes** for Scrolls 2, 3, and 4 in vesuvius challenge. 
 
 The core hypothesis of this research was that ink should be captured by a model regardless of scroll texture. By incorporating Scroll 1 into the training data, I aimed to generalize ink detection. However, the process revealed that ink detection is significantly more complex than identifying simple surface cracks; data bias often leads models to capture very specific qualities of ink.
 
